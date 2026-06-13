@@ -20,13 +20,15 @@ const TARGET_SERVER_ID = "1437578148236754947"; // Hardcoded server
 const POKETWO_BOT_ID = "716390085896962058";    // Pokétwo bot user ID
 
 // Catching delay range (ms) — randomized per catch.
-// Spawns happen every ~20s so catching within 3–13s looks human.
-const MIN_CATCH_DELAY_MS = 3000;
-const MAX_CATCH_DELAY_MS = 13000;
+// 6 channels × 20s windows: need all 6 caught in ~18s.
+// Budget: ~3s per slot → catch delay 1–2.5s, inter-catch 0.2–0.6s
+const MIN_CATCH_DELAY_MS = 1000;
+const MAX_CATCH_DELAY_MS = 2500;
 
-// Delay between catching multiple queued pokemon (ms)
-const MIN_INTER_CATCH_DELAY_MS = 4000;
-const MAX_INTER_CATCH_DELAY_MS = 11000;
+// Delay between consecutive queued catches (ms)
+// Kept tight so all 6 slots fit inside the 20s spawn window
+const MIN_INTER_CATCH_DELAY_MS = 200;
+const MAX_INTER_CATCH_DELAY_MS = 600;
 
 // How long to lock a channel after catching (ms) — prevents double-catching
 // on the same spawn before the next one arrives
