@@ -1,0 +1,298 @@
+2026-06-13T07:35:31.270723688Z [inf]  Starting Container
+2026-06-13T07:35:31.420009983Z [err]      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+2026-06-13T07:35:31.420017123Z [err]    code: 'MODULE_NOT_FOUND',
+2026-06-13T07:35:31.420022283Z [err]    requireStack: [ '/app/index.js' ]
+2026-06-13T07:35:31.420025813Z [err]  }
+2026-06-13T07:35:31.420117252Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-06-13T07:35:31.420120412Z [inf]  
+2026-06-13T07:35:31.420123392Z [inf]  > poketwo-catcher-bot@1.0.0 start
+2026-06-13T07:35:31.420126382Z [inf]  > node index.js
+2026-06-13T07:35:31.420129562Z [inf]  
+2026-06-13T07:35:31.420133642Z [err]  node:internal/modules/cjs/loader:1143
+2026-06-13T07:35:31.420137022Z [err]    throw err;
+2026-06-13T07:35:31.420140082Z [err]    ^
+2026-06-13T07:35:31.420143492Z [err]  
+2026-06-13T07:35:31.420146742Z [err]  Error: Cannot find module 'discord.js-selfbot-v13'
+2026-06-13T07:35:31.420150112Z [err]  Require stack:
+2026-06-13T07:35:31.420153452Z [err]  - /app/index.js
+2026-06-13T07:35:31.420156532Z [err]      at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2026-06-13T07:35:31.420191341Z [err]      at Module._load (node:internal/modules/cjs/loader:981:27)
+2026-06-13T07:35:31.420213711Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2026-06-13T07:35:31.420218971Z [err]  
+2026-06-13T07:35:31.420224911Z [err]  Node.js v18.20.8
+2026-06-13T07:35:31.420227131Z [err]      at require (node:internal/modules/helpers:177:18)
+2026-06-13T07:35:31.420239351Z [err]      at Object.<anonymous> (/app/index.js:12:20)
+2026-06-13T07:35:31.420243231Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2026-06-13T07:35:31.420254791Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2026-06-13T07:35:31.420258501Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2026-06-13T07:35:31.420278941Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2026-06-13T07:35:31.728715382Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-06-13T07:35:31.752262597Z [inf]  
+2026-06-13T07:35:31.752267187Z [inf]  > poketwo-catcher-bot@1.0.0 start
+2026-06-13T07:35:31.752269737Z [inf]  > node index.js
+2026-06-13T07:35:31.752272327Z [inf]  
+2026-06-13T07:35:31.770478679Z [err]  
+2026-06-13T07:35:31.770484629Z [err]  Node.js v18.20.8
+2026-06-13T07:35:31.770489099Z [err]  node:internal/modules/cjs/loader:1143
+2026-06-13T07:35:31.770495599Z [err]    throw err;
+2026-06-13T07:35:31.770498649Z [err]    ^
+2026-06-13T07:35:31.770501659Z [err]  
+2026-06-13T07:35:31.770504629Z [err]  Error: Cannot find module 'discord.js-selfbot-v13'
+2026-06-13T07:35:31.770509049Z [err]  Require stack:
+2026-06-13T07:35:31.770512969Z [err]  - /app/index.js
+2026-06-13T07:35:31.770516209Z [err]      at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2026-06-13T07:35:31.770519148Z [err]      at Module._load (node:internal/modules/cjs/loader:981:27)
+2026-06-13T07:35:31.770521798Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2026-06-13T07:35:31.770524658Z [err]      at require (node:internal/modules/helpers:177:18)
+2026-06-13T07:35:31.770527678Z [err]      at Object.<anonymous> (/app/index.js:12:20)
+2026-06-13T07:35:31.770530458Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2026-06-13T07:35:31.770532798Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2026-06-13T07:35:31.770535388Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2026-06-13T07:35:31.770538328Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2026-06-13T07:35:31.770540708Z [err]      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+2026-06-13T07:35:31.770543218Z [err]    code: 'MODULE_NOT_FOUND',
+2026-06-13T07:35:31.770546018Z [err]    requireStack: [ '/app/index.js' ]
+2026-06-13T07:35:31.770548428Z [err]  }
+2026-06-13T07:35:32.402554305Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-06-13T07:35:32.421222414Z [inf]  
+2026-06-13T07:35:32.421224984Z [inf]  > poketwo-catcher-bot@1.0.0 start
+2026-06-13T07:35:32.421227234Z [inf]  > node index.js
+2026-06-13T07:35:32.421230004Z [inf]  
+2026-06-13T07:35:32.444426671Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2026-06-13T07:35:32.444432351Z [err]      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+2026-06-13T07:35:32.444439041Z [err]    code: 'MODULE_NOT_FOUND',
+2026-06-13T07:35:32.444441081Z [err]  node:internal/modules/cjs/loader:1143
+2026-06-13T07:35:32.444445541Z [err]    requireStack: [ '/app/index.js' ]
+2026-06-13T07:35:32.444450361Z [err]    throw err;
+2026-06-13T07:35:32.444453871Z [err]  }
+2026-06-13T07:35:32.444457051Z [err]    ^
+2026-06-13T07:35:32.444462211Z [err]  
+2026-06-13T07:35:32.444464641Z [err]  
+2026-06-13T07:35:32.444469321Z [err]  Node.js v18.20.8
+2026-06-13T07:35:32.444471881Z [err]  Error: Cannot find module 'discord.js-selfbot-v13'
+2026-06-13T07:35:32.444474991Z [err]  Require stack:
+2026-06-13T07:35:32.444478441Z [err]  - /app/index.js
+2026-06-13T07:35:32.444481360Z [err]      at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2026-06-13T07:35:32.444483930Z [err]      at Module._load (node:internal/modules/cjs/loader:981:27)
+2026-06-13T07:35:32.444486990Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2026-06-13T07:35:32.444489780Z [err]      at require (node:internal/modules/helpers:177:18)
+2026-06-13T07:35:32.444492510Z [err]      at Object.<anonymous> (/app/index.js:12:20)
+2026-06-13T07:35:32.444496250Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2026-06-13T07:35:32.444499330Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2026-06-13T07:35:32.444502490Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2026-06-13T07:35:33.087246022Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-06-13T07:35:33.098699701Z [inf]  
+2026-06-13T07:35:33.098704331Z [inf]  > poketwo-catcher-bot@1.0.0 start
+2026-06-13T07:35:33.098708751Z [inf]  > node index.js
+2026-06-13T07:35:33.098711921Z [inf]  
+2026-06-13T07:35:33.122397944Z [err]  node:internal/modules/cjs/loader:1143
+2026-06-13T07:35:33.122402114Z [err]    throw err;
+2026-06-13T07:35:33.122404874Z [err]    ^
+2026-06-13T07:35:33.122407834Z [err]  
+2026-06-13T07:35:33.122410204Z [err]  Error: Cannot find module 'discord.js-selfbot-v13'
+2026-06-13T07:35:33.122412654Z [err]  Require stack:
+2026-06-13T07:35:33.122414934Z [err]  - /app/index.js
+2026-06-13T07:35:33.122417264Z [err]      at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2026-06-13T07:35:33.122419674Z [err]      at Module._load (node:internal/modules/cjs/loader:981:27)
+2026-06-13T07:35:33.122422434Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2026-06-13T07:35:33.122425844Z [err]      at require (node:internal/modules/helpers:177:18)
+2026-06-13T07:35:33.122428184Z [err]      at Object.<anonymous> (/app/index.js:12:20)
+2026-06-13T07:35:33.122430454Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2026-06-13T07:35:33.122432744Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2026-06-13T07:35:33.122435404Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2026-06-13T07:35:33.122437754Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2026-06-13T07:35:33.122440174Z [err]      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+2026-06-13T07:35:33.122442854Z [err]    code: 'MODULE_NOT_FOUND',
+2026-06-13T07:35:33.122445394Z [err]    requireStack: [ '/app/index.js' ]
+2026-06-13T07:35:33.122447794Z [err]  }
+2026-06-13T07:35:33.122450024Z [err]  
+2026-06-13T07:35:33.122452314Z [err]  Node.js v18.20.8
+2026-06-13T07:35:33.740136872Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-06-13T07:35:33.758987119Z [inf]  
+2026-06-13T07:35:33.758990979Z [inf]  > poketwo-catcher-bot@1.0.0 start
+2026-06-13T07:35:33.758994399Z [inf]  > node index.js
+2026-06-13T07:35:33.758997579Z [inf]  
+2026-06-13T07:35:33.776109569Z [err]  node:internal/modules/cjs/loader:1143
+2026-06-13T07:35:33.776116289Z [err]    throw err;
+2026-06-13T07:35:33.776120599Z [err]    ^
+2026-06-13T07:35:33.776124639Z [err]  
+2026-06-13T07:35:33.776128189Z [err]  Error: Cannot find module 'discord.js-selfbot-v13'
+2026-06-13T07:35:33.776131899Z [err]  Require stack:
+2026-06-13T07:35:33.776135429Z [err]  - /app/index.js
+2026-06-13T07:35:33.776138689Z [err]      at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2026-06-13T07:35:33.776141769Z [err]      at Module._load (node:internal/modules/cjs/loader:981:27)
+2026-06-13T07:35:33.776144899Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2026-06-13T07:35:33.776148139Z [err]      at require (node:internal/modules/helpers:177:18)
+2026-06-13T07:35:33.776151109Z [err]      at Object.<anonymous> (/app/index.js:12:20)
+2026-06-13T07:35:33.776154189Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2026-06-13T07:35:33.776158429Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2026-06-13T07:35:33.776161609Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2026-06-13T07:35:33.776165029Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2026-06-13T07:35:33.776168199Z [err]      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+2026-06-13T07:35:33.776171619Z [err]    code: 'MODULE_NOT_FOUND',
+2026-06-13T07:35:33.776175489Z [err]    requireStack: [ '/app/index.js' ]
+2026-06-13T07:35:33.776178939Z [err]  }
+2026-06-13T07:35:33.776182119Z [err]  
+2026-06-13T07:35:33.776185619Z [err]  Node.js v18.20.8
+2026-06-13T07:35:34.488438663Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-06-13T07:35:34.498819930Z [inf]  
+2026-06-13T07:35:34.498822850Z [inf]  > poketwo-catcher-bot@1.0.0 start
+2026-06-13T07:35:34.498825790Z [inf]  > node index.js
+2026-06-13T07:35:34.498828690Z [inf]  
+2026-06-13T07:35:34.516523935Z [err]  node:internal/modules/cjs/loader:1143
+2026-06-13T07:35:34.516530705Z [err]    throw err;
+2026-06-13T07:35:34.516534585Z [err]    ^
+2026-06-13T07:35:34.516540085Z [err]  
+2026-06-13T07:35:34.516544065Z [err]  Error: Cannot find module 'discord.js-selfbot-v13'
+2026-06-13T07:35:34.516547515Z [err]  Require stack:
+2026-06-13T07:35:34.516550645Z [err]  - /app/index.js
+2026-06-13T07:35:34.516553845Z [err]      at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2026-06-13T07:35:34.516557384Z [err]      at Module._load (node:internal/modules/cjs/loader:981:27)
+2026-06-13T07:35:34.516560664Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2026-06-13T07:35:34.516565774Z [err]      at require (node:internal/modules/helpers:177:18)
+2026-06-13T07:35:34.516569764Z [err]      at Object.<anonymous> (/app/index.js:12:20)
+2026-06-13T07:35:34.516573144Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2026-06-13T07:35:34.516576974Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2026-06-13T07:35:34.516580204Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2026-06-13T07:35:34.516583214Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2026-06-13T07:35:34.516587004Z [err]      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+2026-06-13T07:35:34.516590504Z [err]    code: 'MODULE_NOT_FOUND',
+2026-06-13T07:35:34.516593764Z [err]    requireStack: [ '/app/index.js' ]
+2026-06-13T07:35:34.516597874Z [err]  }
+2026-06-13T07:35:34.516601094Z [err]  
+2026-06-13T07:35:34.516606234Z [err]  Node.js v18.20.8
+2026-06-13T07:35:35.150641498Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-06-13T07:35:35.169115228Z [inf]  
+2026-06-13T07:35:35.169117688Z [inf]  > poketwo-catcher-bot@1.0.0 start
+2026-06-13T07:35:35.169120178Z [inf]  > node index.js
+2026-06-13T07:35:35.169122458Z [inf]  
+2026-06-13T07:35:35.189163697Z [err]  node:internal/modules/cjs/loader:1143
+2026-06-13T07:35:35.189167067Z [err]    throw err;
+2026-06-13T07:35:35.189169767Z [err]    ^
+2026-06-13T07:35:35.189172347Z [err]  
+2026-06-13T07:35:35.189174717Z [err]  Error: Cannot find module 'discord.js-selfbot-v13'
+2026-06-13T07:35:35.189177117Z [err]  Require stack:
+2026-06-13T07:35:35.189179647Z [err]  - /app/index.js
+2026-06-13T07:35:35.189182887Z [err]      at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2026-06-13T07:35:35.189185787Z [err]      at Module._load (node:internal/modules/cjs/loader:981:27)
+2026-06-13T07:35:35.189188107Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2026-06-13T07:35:35.189190527Z [err]      at require (node:internal/modules/helpers:177:18)
+2026-06-13T07:35:35.189192777Z [err]      at Object.<anonymous> (/app/index.js:12:20)
+2026-06-13T07:35:35.189195177Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2026-06-13T07:35:35.189197377Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2026-06-13T07:35:35.189200237Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2026-06-13T07:35:35.189202797Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2026-06-13T07:35:35.189205157Z [err]      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+2026-06-13T07:35:35.189207337Z [err]    code: 'MODULE_NOT_FOUND',
+2026-06-13T07:35:35.189209667Z [err]    requireStack: [ '/app/index.js' ]
+2026-06-13T07:35:35.189212217Z [err]  }
+2026-06-13T07:35:35.189214917Z [err]  
+2026-06-13T07:35:35.189217207Z [err]  Node.js v18.20.8
+2026-06-13T07:35:35.867471590Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-06-13T07:35:35.883462068Z [inf]  
+2026-06-13T07:35:35.883465088Z [inf]  > poketwo-catcher-bot@1.0.0 start
+2026-06-13T07:35:35.883468768Z [inf]  > node index.js
+2026-06-13T07:35:35.883471308Z [inf]  
+2026-06-13T07:35:35.904402260Z [err]  node:internal/modules/cjs/loader:1143
+2026-06-13T07:35:35.904407010Z [err]    throw err;
+2026-06-13T07:35:35.904411660Z [err]    ^
+2026-06-13T07:35:35.904415660Z [err]  
+2026-06-13T07:35:35.904419390Z [err]  Error: Cannot find module 'discord.js-selfbot-v13'
+2026-06-13T07:35:35.904423270Z [err]  Require stack:
+2026-06-13T07:35:35.904426970Z [err]  - /app/index.js
+2026-06-13T07:35:35.904430880Z [err]      at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2026-06-13T07:35:35.904435400Z [err]      at Module._load (node:internal/modules/cjs/loader:981:27)
+2026-06-13T07:35:35.904439630Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2026-06-13T07:35:35.904443070Z [err]      at require (node:internal/modules/helpers:177:18)
+2026-06-13T07:35:35.904446440Z [err]      at Object.<anonymous> (/app/index.js:12:20)
+2026-06-13T07:35:35.904449600Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2026-06-13T07:35:35.904452960Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2026-06-13T07:35:35.904456190Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2026-06-13T07:35:35.904459590Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2026-06-13T07:35:35.904463170Z [err]      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+2026-06-13T07:35:35.904467420Z [err]    code: 'MODULE_NOT_FOUND',
+2026-06-13T07:35:35.904471400Z [err]    requireStack: [ '/app/index.js' ]
+2026-06-13T07:35:35.904474920Z [err]  }
+2026-06-13T07:35:35.904478270Z [err]  
+2026-06-13T07:35:35.904481630Z [err]  Node.js v18.20.8
+2026-06-13T07:35:36.521229386Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-06-13T07:35:36.544205354Z [inf]  
+2026-06-13T07:35:36.544209984Z [inf]  > poketwo-catcher-bot@1.0.0 start
+2026-06-13T07:35:36.544214564Z [inf]  > node index.js
+2026-06-13T07:35:36.544218754Z [inf]  
+2026-06-13T07:35:36.563950015Z [err]  node:internal/modules/cjs/loader:1143
+2026-06-13T07:35:36.563957095Z [err]    throw err;
+2026-06-13T07:35:36.563961295Z [err]    ^
+2026-06-13T07:35:36.563964935Z [err]  
+2026-06-13T07:35:36.563968325Z [err]  Error: Cannot find module 'discord.js-selfbot-v13'
+2026-06-13T07:35:36.563972085Z [err]  Require stack:
+2026-06-13T07:35:36.563975075Z [err]  - /app/index.js
+2026-06-13T07:35:36.563978635Z [err]      at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2026-06-13T07:35:36.563982265Z [err]      at Module._load (node:internal/modules/cjs/loader:981:27)
+2026-06-13T07:35:36.563985745Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2026-06-13T07:35:36.563989075Z [err]      at require (node:internal/modules/helpers:177:18)
+2026-06-13T07:35:36.563992364Z [err]      at Object.<anonymous> (/app/index.js:12:20)
+2026-06-13T07:35:36.563997934Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2026-06-13T07:35:36.564001404Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2026-06-13T07:35:36.564004794Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2026-06-13T07:35:36.564008614Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2026-06-13T07:35:36.564011774Z [err]      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+2026-06-13T07:35:36.564016754Z [err]    code: 'MODULE_NOT_FOUND',
+2026-06-13T07:35:36.564019954Z [err]    requireStack: [ '/app/index.js' ]
+2026-06-13T07:35:36.564023154Z [err]  }
+2026-06-13T07:35:36.564026414Z [err]  
+2026-06-13T07:35:36.564029664Z [err]  Node.js v18.20.8
+2026-06-13T07:35:37.224969740Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-06-13T07:35:37.238193677Z [inf]  
+2026-06-13T07:35:37.238196667Z [inf]  > poketwo-catcher-bot@1.0.0 start
+2026-06-13T07:35:37.238199547Z [inf]  > node index.js
+2026-06-13T07:35:37.238201857Z [inf]  
+2026-06-13T07:35:37.259173720Z [err]  node:internal/modules/cjs/loader:1143
+2026-06-13T07:35:37.259177800Z [err]    throw err;
+2026-06-13T07:35:37.259181630Z [err]    ^
+2026-06-13T07:35:37.259188170Z [err]  
+2026-06-13T07:35:37.259191390Z [err]  Error: Cannot find module 'discord.js-selfbot-v13'
+2026-06-13T07:35:37.259194780Z [err]  Require stack:
+2026-06-13T07:35:37.259197859Z [err]  - /app/index.js
+2026-06-13T07:35:37.259201199Z [err]      at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2026-06-13T07:35:37.259205209Z [err]      at Module._load (node:internal/modules/cjs/loader:981:27)
+2026-06-13T07:35:37.259208599Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2026-06-13T07:35:37.259211619Z [err]      at require (node:internal/modules/helpers:177:18)
+2026-06-13T07:35:37.259216219Z [err]      at Object.<anonymous> (/app/index.js:12:20)
+2026-06-13T07:35:37.259219749Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2026-06-13T07:35:37.259224689Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2026-06-13T07:35:37.259229729Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2026-06-13T07:35:37.259233059Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2026-06-13T07:35:37.259236109Z [err]      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+2026-06-13T07:35:37.259239259Z [err]    code: 'MODULE_NOT_FOUND',
+2026-06-13T07:35:37.259242759Z [err]    requireStack: [ '/app/index.js' ]
+2026-06-13T07:35:37.259245509Z [err]  }
+2026-06-13T07:35:37.259248779Z [err]  
+2026-06-13T07:35:37.259251809Z [err]  Node.js v18.20.8
+2026-06-13T07:35:37.910087506Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-06-13T07:35:37.929234051Z [inf]  
+2026-06-13T07:35:37.929238411Z [inf]  > poketwo-catcher-bot@1.0.0 start
+2026-06-13T07:35:37.929241681Z [inf]  > node index.js
+2026-06-13T07:35:37.929245301Z [inf]  
+2026-06-13T07:35:37.945928874Z [err]  }
+2026-06-13T07:35:37.945935954Z [err]  
+2026-06-13T07:35:37.945940364Z [err]  Node.js v18.20.8
+2026-06-13T07:35:37.945951254Z [err]  node:internal/modules/cjs/loader:1143
+2026-06-13T07:35:37.945954364Z [err]    throw err;
+2026-06-13T07:35:37.945957584Z [err]    ^
+2026-06-13T07:35:37.945961104Z [err]  
+2026-06-13T07:35:37.945964204Z [err]  Error: Cannot find module 'discord.js-selfbot-v13'
+2026-06-13T07:35:37.945970114Z [err]  Require stack:
+2026-06-13T07:35:37.945973014Z [err]  - /app/index.js
+2026-06-13T07:35:37.945975754Z [err]      at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2026-06-13T07:35:37.945978544Z [err]      at Module._load (node:internal/modules/cjs/loader:981:27)
+2026-06-13T07:35:37.945981304Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2026-06-13T07:35:37.945983844Z [err]      at require (node:internal/modules/helpers:177:18)
+2026-06-13T07:35:37.945986844Z [err]      at Object.<anonymous> (/app/index.js:12:20)
+2026-06-13T07:35:37.945990053Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2026-06-13T07:35:37.945992593Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2026-06-13T07:35:37.945995403Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2026-06-13T07:35:37.945998103Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2026-06-13T07:35:37.946000873Z [err]      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+2026-06-13T07:35:37.946003453Z [err]    code: 'MODULE_NOT_FOUND',
+2026-06-13T07:35:37.946006443Z [err]    requireStack: [ '/app/index.js' ]

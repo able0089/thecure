@@ -2,12 +2,9 @@
   "name": "poketwo-catcher-bot",
   "version": "1.0.0",
   "description": "Pokétwo self-bot catcher for Railway",
-  "main": "index.js",
+  "main": "bundle.js",
   "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "discord.js-selfbot-v13": "3.7.1"
+    "start": "node bundle.js"
   },
   "engines": {
     "node": ">=18"
