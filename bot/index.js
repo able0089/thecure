@@ -19,16 +19,13 @@ const CATEGORY_ID = process.env.CATEGORY_ID; // Set this in Railway
 const TARGET_SERVER_ID = "1437578148236754947"; // Hardcoded server
 const POKETWO_BOT_ID = "716390085896962058";    // Pokétwo bot user ID
 
-// Catching delay range (ms) — randomized per catch.
-// 6 channels × 20s windows: need all 6 caught in ~18s.
-// Budget: ~3s per slot → catch delay 1–2.5s, inter-catch 0.2–0.6s
-const MIN_CATCH_DELAY_MS = 1000;
-const MAX_CATCH_DELAY_MS = 2500;
+// Delay before the very first catch (ms) — near-instant, tiny jitter only
+const MIN_CATCH_DELAY_MS = 100;
+const MAX_CATCH_DELAY_MS = 400;
 
-// Delay between consecutive queued catches (ms)
-// Kept tight so all 6 slots fit inside the 20s spawn window
-const MIN_INTER_CATCH_DELAY_MS = 200;
-const MAX_INTER_CATCH_DELAY_MS = 600;
+// Delay between consecutive queued catches (ms) — 1–2s to avoid spam flagging
+const MIN_INTER_CATCH_DELAY_MS = 1000;
+const MAX_INTER_CATCH_DELAY_MS = 2000;
 
 // How long to lock a channel after catching (ms) — prevents double-catching
 // on the same spawn before the next one arrives
