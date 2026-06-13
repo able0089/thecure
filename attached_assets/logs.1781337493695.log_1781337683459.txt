@@ -1,0 +1,243 @@
+2026-06-13T07:56:22.160333505Z [inf]  Starting Container
+2026-06-13T07:56:22.254327196Z [err]      throw mod = 0, e;
+2026-06-13T07:56:22.254348806Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-06-13T07:56:22.254352276Z [inf]  
+2026-06-13T07:56:22.254355336Z [inf]  > poketwo-catcher-bot@1.0.0 start
+2026-06-13T07:56:22.254358946Z [inf]  > node bundle.js
+2026-06-13T07:56:22.254362636Z [inf]  
+2026-06-13T07:56:22.254366876Z [err]  /app/bundle.js:7
+2026-06-13T07:56:22.254836529Z [err]      ^
+2026-06-13T07:56:22.254841469Z [err]  
+2026-06-13T07:56:22.254844669Z [err]  ReferenceError: File is not defined
+2026-06-13T07:56:22.254847789Z [err]      at node_modules/undici/lib/web/webidl/index.js (/app/bundle.js:11486:52)
+2026-06-13T07:56:22.254851499Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:22.254854359Z [err]      at node_modules/undici/lib/web/fetch/util.js (/app/bundle.js:11758:22)
+2026-06-13T07:56:22.254856739Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:22.254859259Z [err]      at node_modules/undici/lib/web/fetch/headers.js (/app/bundle.js:24723:9)
+2026-06-13T07:56:22.254862259Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:22.254864669Z [err]      at node_modules/undici/lib/web/fetch/response.js (/app/bundle.js:25178:92)
+2026-06-13T07:56:22.254867009Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:22.254869698Z [err]      at node_modules/undici/lib/web/fetch/index.js (/app/bundle.js:26502:9)
+2026-06-13T07:56:22.254872218Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:22.254874718Z [err]  
+2026-06-13T07:56:22.254879328Z [err]  Node.js v18.20.8
+2026-06-13T07:56:22.608713004Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-06-13T07:56:22.620917082Z [inf]  
+2026-06-13T07:56:22.620995591Z [inf]  > poketwo-catcher-bot@1.0.0 start
+2026-06-13T07:56:22.621001391Z [inf]  > node bundle.js
+2026-06-13T07:56:22.621005731Z [inf]  
+2026-06-13T07:56:22.723926588Z [err]      at node_modules/undici/lib/web/fetch/response.js (/app/bundle.js:25178:92)
+2026-06-13T07:56:22.723933078Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:22.723939788Z [err]      at node_modules/undici/lib/web/fetch/index.js (/app/bundle.js:26502:9)
+2026-06-13T07:56:22.723943808Z [err]  /app/bundle.js:7
+2026-06-13T07:56:22.723947438Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:22.723953558Z [err]      throw mod = 0, e;
+2026-06-13T07:56:22.723955588Z [err]  
+2026-06-13T07:56:22.723961738Z [err]      ^
+2026-06-13T07:56:22.723966078Z [err]  Node.js v18.20.8
+2026-06-13T07:56:22.723967798Z [err]  
+2026-06-13T07:56:22.723972008Z [err]  ReferenceError: File is not defined
+2026-06-13T07:56:22.723976338Z [err]      at node_modules/undici/lib/web/webidl/index.js (/app/bundle.js:11486:52)
+2026-06-13T07:56:22.723979178Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:22.723982228Z [err]      at node_modules/undici/lib/web/fetch/util.js (/app/bundle.js:11758:22)
+2026-06-13T07:56:22.723985228Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:22.723988708Z [err]      at node_modules/undici/lib/web/fetch/headers.js (/app/bundle.js:24723:9)
+2026-06-13T07:56:22.723991458Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:23.342243192Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-06-13T07:56:23.360946135Z [inf]  
+2026-06-13T07:56:23.360950125Z [inf]  > poketwo-catcher-bot@1.0.0 start
+2026-06-13T07:56:23.361082233Z [inf]  > node bundle.js
+2026-06-13T07:56:23.361087243Z [inf]  
+2026-06-13T07:56:23.460599216Z [err]  /app/bundle.js:7
+2026-06-13T07:56:23.460603856Z [err]      throw mod = 0, e;
+2026-06-13T07:56:23.460607476Z [err]      ^
+2026-06-13T07:56:23.460610496Z [err]  
+2026-06-13T07:56:23.460613046Z [err]  ReferenceError: File is not defined
+2026-06-13T07:56:23.460617465Z [err]      at node_modules/undici/lib/web/webidl/index.js (/app/bundle.js:11486:52)
+2026-06-13T07:56:23.460620325Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:23.460623125Z [err]      at node_modules/undici/lib/web/fetch/util.js (/app/bundle.js:11758:22)
+2026-06-13T07:56:23.460625975Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:23.460628655Z [err]      at node_modules/undici/lib/web/fetch/headers.js (/app/bundle.js:24723:9)
+2026-06-13T07:56:23.460791093Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:23.460796183Z [err]      at node_modules/undici/lib/web/fetch/response.js (/app/bundle.js:25178:92)
+2026-06-13T07:56:23.460800443Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:23.460805103Z [err]      at node_modules/undici/lib/web/fetch/index.js (/app/bundle.js:26502:9)
+2026-06-13T07:56:23.460809673Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:23.460814203Z [err]  
+2026-06-13T07:56:23.460818413Z [err]  Node.js v18.20.8
+2026-06-13T07:56:24.216863882Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-06-13T07:56:24.217606303Z [inf]  
+2026-06-13T07:56:24.217610613Z [inf]  > poketwo-catcher-bot@1.0.0 start
+2026-06-13T07:56:24.217613993Z [inf]  > node bundle.js
+2026-06-13T07:56:24.217618503Z [inf]  
+2026-06-13T07:56:24.322213057Z [err]  /app/bundle.js:7
+2026-06-13T07:56:24.322217827Z [err]      throw mod = 0, e;
+2026-06-13T07:56:24.322222227Z [err]      ^
+2026-06-13T07:56:24.322226257Z [err]  
+2026-06-13T07:56:24.322230357Z [err]  ReferenceError: File is not defined
+2026-06-13T07:56:24.322233847Z [err]      at node_modules/undici/lib/web/webidl/index.js (/app/bundle.js:11486:52)
+2026-06-13T07:56:24.322237277Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:24.322241017Z [err]      at node_modules/undici/lib/web/fetch/util.js (/app/bundle.js:11758:22)
+2026-06-13T07:56:24.322244407Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:24.322248077Z [err]      at node_modules/undici/lib/web/fetch/headers.js (/app/bundle.js:24723:9)
+2026-06-13T07:56:24.322251197Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:24.322254107Z [err]      at node_modules/undici/lib/web/fetch/response.js (/app/bundle.js:25178:92)
+2026-06-13T07:56:24.322257737Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:24.322261307Z [err]      at node_modules/undici/lib/web/fetch/index.js (/app/bundle.js:26502:9)
+2026-06-13T07:56:24.322265087Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:24.322268197Z [err]  
+2026-06-13T07:56:24.322271696Z [err]  Node.js v18.20.8
+2026-06-13T07:56:25.333233252Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-06-13T07:56:25.348099845Z [inf]  
+2026-06-13T07:56:25.348104985Z [inf]  > poketwo-catcher-bot@1.0.0 start
+2026-06-13T07:56:25.348108674Z [inf]  > node bundle.js
+2026-06-13T07:56:25.348111814Z [inf]  
+2026-06-13T07:56:25.462310132Z [err]  /app/bundle.js:7
+2026-06-13T07:56:25.462315212Z [err]      throw mod = 0, e;
+2026-06-13T07:56:25.462319702Z [err]      ^
+2026-06-13T07:56:25.462323982Z [err]  
+2026-06-13T07:56:25.462328642Z [err]  ReferenceError: File is not defined
+2026-06-13T07:56:25.462332482Z [err]      at node_modules/undici/lib/web/webidl/index.js (/app/bundle.js:11486:52)
+2026-06-13T07:56:25.462337562Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:25.462342032Z [err]      at node_modules/undici/lib/web/fetch/util.js (/app/bundle.js:11758:22)
+2026-06-13T07:56:25.462346922Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:25.462351572Z [err]      at node_modules/undici/lib/web/fetch/headers.js (/app/bundle.js:24723:9)
+2026-06-13T07:56:25.462356062Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:25.462360422Z [err]      at node_modules/undici/lib/web/fetch/response.js (/app/bundle.js:25178:92)
+2026-06-13T07:56:25.462365722Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:25.462369922Z [err]      at node_modules/undici/lib/web/fetch/index.js (/app/bundle.js:26502:9)
+2026-06-13T07:56:25.462373852Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:25.462378132Z [err]  
+2026-06-13T07:56:25.462382741Z [err]  Node.js v18.20.8
+2026-06-13T07:56:26.315756543Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-06-13T07:56:26.331231048Z [inf]  
+2026-06-13T07:56:26.331235528Z [inf]  > poketwo-catcher-bot@1.0.0 start
+2026-06-13T07:56:26.331239608Z [inf]  > node bundle.js
+2026-06-13T07:56:26.331243797Z [inf]  
+2026-06-13T07:56:26.435187961Z [err]  /app/bundle.js:7
+2026-06-13T07:56:26.435194071Z [err]      throw mod = 0, e;
+2026-06-13T07:56:26.435198711Z [err]      ^
+2026-06-13T07:56:26.435203541Z [err]  
+2026-06-13T07:56:26.435208251Z [err]  ReferenceError: File is not defined
+2026-06-13T07:56:26.435213141Z [err]      at node_modules/undici/lib/web/webidl/index.js (/app/bundle.js:11486:52)
+2026-06-13T07:56:26.435216841Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:26.435220881Z [err]      at node_modules/undici/lib/web/fetch/util.js (/app/bundle.js:11758:22)
+2026-06-13T07:56:26.435225531Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:26.435229491Z [err]      at node_modules/undici/lib/web/fetch/headers.js (/app/bundle.js:24723:9)
+2026-06-13T07:56:26.435239100Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:26.435247110Z [err]      at node_modules/undici/lib/web/fetch/response.js (/app/bundle.js:25178:92)
+2026-06-13T07:56:26.435250770Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:26.435254560Z [err]      at node_modules/undici/lib/web/fetch/index.js (/app/bundle.js:26502:9)
+2026-06-13T07:56:26.435258470Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:26.435262330Z [err]  
+2026-06-13T07:56:26.435266400Z [err]  Node.js v18.20.8
+2026-06-13T07:56:27.301651540Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-06-13T07:56:27.322765580Z [inf]  
+2026-06-13T07:56:27.322769730Z [inf]  > poketwo-catcher-bot@1.0.0 start
+2026-06-13T07:56:27.322773760Z [inf]  > node bundle.js
+2026-06-13T07:56:27.322777020Z [inf]  
+2026-06-13T07:56:27.446117926Z [err]  /app/bundle.js:7
+2026-06-13T07:56:27.446122276Z [err]      throw mod = 0, e;
+2026-06-13T07:56:27.446126446Z [err]      ^
+2026-06-13T07:56:27.446132116Z [err]  
+2026-06-13T07:56:27.446137116Z [err]  ReferenceError: File is not defined
+2026-06-13T07:56:27.446143806Z [err]      at node_modules/undici/lib/web/webidl/index.js (/app/bundle.js:11486:52)
+2026-06-13T07:56:27.446149456Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:27.446154686Z [err]      at node_modules/undici/lib/web/fetch/util.js (/app/bundle.js:11758:22)
+2026-06-13T07:56:27.446159736Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:27.446163766Z [err]      at node_modules/undici/lib/web/fetch/headers.js (/app/bundle.js:24723:9)
+2026-06-13T07:56:27.446167546Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:27.446171446Z [err]      at node_modules/undici/lib/web/fetch/response.js (/app/bundle.js:25178:92)
+2026-06-13T07:56:27.446176126Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:27.446180176Z [err]      at node_modules/undici/lib/web/fetch/index.js (/app/bundle.js:26502:9)
+2026-06-13T07:56:27.446184236Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:27.446187956Z [err]  
+2026-06-13T07:56:27.446192125Z [err]  Node.js v18.20.8
+2026-06-13T07:56:28.245350035Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-06-13T07:56:28.245357645Z [inf]  
+2026-06-13T07:56:28.245362165Z [inf]  > poketwo-catcher-bot@1.0.0 start
+2026-06-13T07:56:28.245365865Z [inf]  > node bundle.js
+2026-06-13T07:56:28.245368965Z [inf]  
+2026-06-13T07:56:28.299241191Z [err]  /app/bundle.js:7
+2026-06-13T07:56:28.299247660Z [err]      throw mod = 0, e;
+2026-06-13T07:56:28.299251530Z [err]      ^
+2026-06-13T07:56:28.299255870Z [err]  
+2026-06-13T07:56:28.299258950Z [err]  ReferenceError: File is not defined
+2026-06-13T07:56:28.299263510Z [err]      at node_modules/undici/lib/web/webidl/index.js (/app/bundle.js:11486:52)
+2026-06-13T07:56:28.299266360Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:28.299269460Z [err]      at node_modules/undici/lib/web/fetch/util.js (/app/bundle.js:11758:22)
+2026-06-13T07:56:28.299272710Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:28.299275910Z [err]      at node_modules/undici/lib/web/fetch/headers.js (/app/bundle.js:24723:9)
+2026-06-13T07:56:28.299280810Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:28.299283930Z [err]      at node_modules/undici/lib/web/fetch/response.js (/app/bundle.js:25178:92)
+2026-06-13T07:56:28.299286860Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:28.299290880Z [err]      at node_modules/undici/lib/web/fetch/index.js (/app/bundle.js:26502:9)
+2026-06-13T07:56:28.299293890Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:28.299297080Z [err]  
+2026-06-13T07:56:28.299299900Z [err]  Node.js v18.20.8
+2026-06-13T07:56:29.029823498Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-06-13T07:56:29.042279173Z [inf]  
+2026-06-13T07:56:29.042283133Z [inf]  > poketwo-catcher-bot@1.0.0 start
+2026-06-13T07:56:29.042286933Z [inf]  > node bundle.js
+2026-06-13T07:56:29.042290733Z [inf]  
+2026-06-13T07:56:29.260203697Z [err]  /app/bundle.js:7
+2026-06-13T07:56:29.260210277Z [err]      throw mod = 0, e;
+2026-06-13T07:56:29.260214437Z [err]      ^
+2026-06-13T07:56:29.260219156Z [err]  
+2026-06-13T07:56:29.260224856Z [err]  ReferenceError: File is not defined
+2026-06-13T07:56:29.260229226Z [err]      at node_modules/undici/lib/web/webidl/index.js (/app/bundle.js:11486:52)
+2026-06-13T07:56:29.260234156Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:29.260250796Z [err]      at node_modules/undici/lib/web/fetch/util.js (/app/bundle.js:11758:22)
+2026-06-13T07:56:29.260256926Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:29.260262706Z [err]      at node_modules/undici/lib/web/fetch/headers.js (/app/bundle.js:24723:9)
+2026-06-13T07:56:29.260266926Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:29.260271426Z [err]      at node_modules/undici/lib/web/fetch/response.js (/app/bundle.js:25178:92)
+2026-06-13T07:56:29.260275386Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:29.260279306Z [err]      at node_modules/undici/lib/web/fetch/index.js (/app/bundle.js:26502:9)
+2026-06-13T07:56:29.260283456Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:29.260287265Z [err]  
+2026-06-13T07:56:29.260291195Z [err]  Node.js v18.20.8
+2026-06-13T07:56:30.119956804Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-06-13T07:56:30.233274183Z [inf]  
+2026-06-13T07:56:30.233276613Z [inf]  > poketwo-catcher-bot@1.0.0 start
+2026-06-13T07:56:30.233279033Z [inf]  > node bundle.js
+2026-06-13T07:56:30.233282253Z [inf]  
+2026-06-13T07:56:30.236667828Z [err]  /app/bundle.js:7
+2026-06-13T07:56:30.236674168Z [err]      throw mod = 0, e;
+2026-06-13T07:56:30.236689607Z [err]      ^
+2026-06-13T07:56:30.236694607Z [err]  
+2026-06-13T07:56:30.236699937Z [err]  ReferenceError: File is not defined
+2026-06-13T07:56:30.236705587Z [err]      at node_modules/undici/lib/web/webidl/index.js (/app/bundle.js:11486:52)
+2026-06-13T07:56:30.236711807Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:30.236717117Z [err]      at node_modules/undici/lib/web/fetch/util.js (/app/bundle.js:11758:22)
+2026-06-13T07:56:30.236721077Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:30.236724927Z [err]      at node_modules/undici/lib/web/fetch/headers.js (/app/bundle.js:24723:9)
+2026-06-13T07:56:30.236728707Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:30.236731917Z [err]      at node_modules/undici/lib/web/fetch/response.js (/app/bundle.js:25178:92)
+2026-06-13T07:56:30.236734797Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:30.236738507Z [err]      at node_modules/undici/lib/web/fetch/index.js (/app/bundle.js:26502:9)
+2026-06-13T07:56:30.236741537Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:30.236746207Z [err]  
+2026-06-13T07:56:30.236750006Z [err]  Node.js v18.20.8
+2026-06-13T07:56:30.990023453Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-06-13T07:56:31.007251155Z [inf]  
+2026-06-13T07:56:31.007255775Z [inf]  > poketwo-catcher-bot@1.0.0 start
+2026-06-13T07:56:31.007260505Z [inf]  > node bundle.js
+2026-06-13T07:56:31.007264124Z [inf]  
+2026-06-13T07:56:31.121121197Z [err]  /app/bundle.js:7
+2026-06-13T07:56:31.121141617Z [err]      throw mod = 0, e;
+2026-06-13T07:56:31.121159047Z [err]      ^
+2026-06-13T07:56:31.121164777Z [err]  
+2026-06-13T07:56:31.121169707Z [err]  ReferenceError: File is not defined
+2026-06-13T07:56:31.121175267Z [err]      at node_modules/undici/lib/web/webidl/index.js (/app/bundle.js:11486:52)
+2026-06-13T07:56:31.121180226Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:31.121186416Z [err]      at node_modules/undici/lib/web/fetch/util.js (/app/bundle.js:11758:22)
+2026-06-13T07:56:31.121192166Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:31.121197376Z [err]      at node_modules/undici/lib/web/fetch/headers.js (/app/bundle.js:24723:9)
+2026-06-13T07:56:31.121202766Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:31.121207776Z [err]      at node_modules/undici/lib/web/fetch/response.js (/app/bundle.js:25178:92)
+2026-06-13T07:56:31.121212686Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:31.121217566Z [err]      at node_modules/undici/lib/web/fetch/index.js (/app/bundle.js:26502:9)
+2026-06-13T07:56:31.121222836Z [err]      at __require (/app/bundle.js:5:52)
+2026-06-13T07:56:31.121229906Z [err]  
+2026-06-13T07:56:31.121235136Z [err]  Node.js v18.20.8
