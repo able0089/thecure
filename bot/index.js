@@ -28,8 +28,9 @@ const MIN_INTER_CATCH_DELAY_MS = 1000;
 const MAX_INTER_CATCH_DELAY_MS = 2000;
 
 // How long to lock a channel after catching (ms) — prevents double-catching
-// on the same spawn before the next one arrives
-const CHANNEL_LOCK_DURATION_MS = 22000;
+// the same spawn. Spawns are every 20s so 8s is enough to block duplicates
+// while freeing the channel 12s before the next spawn arrives.
+const CHANNEL_LOCK_DURATION_MS = 8000;
 
 // ─── State ────────────────────────────────────────────────────────────────────
 
