@@ -1,0 +1,15 @@
+{
+  "name": "poketwo-catcher-bot",
+  "version": "1.0.0",
+  "description": "Pokétwo self-bot catcher for Railway",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js-selfbot-v13": "^3.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
