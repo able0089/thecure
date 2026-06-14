@@ -20,18 +20,26 @@ const CATEGORY_ID = process.env.CATEGORY_ID; // Set this in Railway
 const TARGET_SERVER_ID = "1437578148236754947"; // Hardcoded server
 const POKETWO_BOT_ID = "716390085896962058";    // Pokétwo bot user ID
 
-// Delay before the very first catch (ms) — near-instant, tiny jitter only
-const MIN_CATCH_DELAY_MS = 100;
-const MAX_CATCH_DELAY_MS = 400;
+// Delay before attempting a catch (ms).
+// 6 channels × 20s spawn interval = 1 spawn every ~3.3s across all channels.
+// A real human reacts in 2–6 seconds, so we match that range.
+const MIN_CATCH_DELAY_MS = 2000;
+const MAX_CATCH_DELAY_MS = 5500;
 
-// Delay between consecutive queued catches (ms) — 1–2s to avoid spam flagging
-const MIN_INTER_CATCH_DELAY_MS = 1000;
-const MAX_INTER_CATCH_DELAY_MS = 2000;
+// Delay between consecutive queued catches (ms).
+// If multiple spawns pile up, space them out naturally.
+const MIN_INTER_CATCH_DELAY_MS = 3000;
+const MAX_INTER_CATCH_DELAY_MS = 6000;
 
 // How long to lock a channel after catching (ms) — prevents double-catching
 // the same spawn. Spawns are every 20s so 8s is enough to block duplicates
 // while freeing the channel 12s before the next spawn arrives.
 const CHANNEL_LOCK_DURATION_MS = 8000;
+
+// Pokemon names (lowercase) to silently ignore — never catch these.
+const IGNORE_POKEMON = new Set([
+  "absol",
+]);
 
 // ─── State ────────────────────────────────────────────────────────────────────
 
@@ -205,6 +213,12 @@ client.on("messageCreate", async (message) => {
 
     const pokemonName = extractPokemonName(message);
     if (!pokemonName) return;
+
+    // Skip ignored pokemon
+    if (IGNORE_POKEMON.has(pokemonName.toLowerCase())) {
+      log("IGNORE", `Skipping ignored pokemon: ${pokemonName}`);
+      return;
+    }
 
     const channelId = message.channel.id;
 

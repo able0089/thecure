@@ -1041,20 +1041,43 @@ const FORM_PREFIXES = [
 ];
 
 /**
+ * Normalize apostrophes and other look-alike punctuation so that names like
+ * Farfetch'd (straight apostrophe U+0027 from spawn bots) match the curly
+ * apostrophe (U+2019) stored in ALIASES keys from the PokeAPI CSV.
+ */
+function normalizeApostrophes(str) {
+  return str
+    .replace(/[\u2018\u2019\u201A\u201B\u0060\u00B4]/g, "'");
+}
+
+/**
  * Resolve the catch alias for a detected pokemon name.
  * Falls back to the original name if no alias found.
  */
 function resolveCatchName(detectedName) {
-  const lower = detectedName.toLowerCase().trim();
+  // Normalize both the input and lookup keys against apostrophe variants
+  const normalize = (s) => normalizeApostrophes(s.toLowerCase().trim());
+  const lower = normalize(detectedName);
+
+  // Build a normalized lookup helper (normalizes key apostrophes too)
+  const lookup = (key) => {
+    if (ALIASES[key]) return ALIASES[key];
+    // Try with curly apostrophe in key (the CSV stores them that way)
+    const curly = key.replace(/'/g, '\u2019');
+    if (ALIASES[curly]) return ALIASES[curly];
+    return null;
+  };
 
   // 1. Direct match
-  if (ALIASES[lower]) return ALIASES[lower];
+  const direct = lookup(lower);
+  if (direct) return direct;
 
   // 2. Strip known form prefixes and try again
   for (const prefix of FORM_PREFIXES) {
     if (lower.startsWith(prefix)) {
       const base = lower.slice(prefix.length).trim();
-      if (ALIASES[base]) return ALIASES[base];
+      const hit = lookup(base);
+      if (hit) return hit;
     }
   }
 
@@ -1062,7 +1085,8 @@ function resolveCatchName(detectedName) {
   const lastHyphen = lower.lastIndexOf('-');
   if (lastHyphen > 0) {
     const base = lower.slice(0, lastHyphen).trim();
-    if (ALIASES[base]) return ALIASES[base];
+    const hit = lookup(base);
+    if (hit) return hit;
   }
 
   // 4. No alias found — use the detected name as-is
