@@ -20,16 +20,17 @@ const CATEGORY_ID = process.env.CATEGORY_ID; // Set this in Railway
 const TARGET_SERVER_ID = "1437578148236754947"; // Hardcoded server
 const POKETWO_BOT_ID = "716390085896962058";    // Pokétwo bot user ID
 
-// Delay before attempting a catch (ms).
-// 6 channels × 20s spawn interval = 1 spawn every ~3.3s across all channels.
-// A real human reacts in 2–6 seconds, so we match that range.
-const MIN_CATCH_DELAY_MS = 2000;
-const MAX_CATCH_DELAY_MS = 5500;
+// Delay before the FIRST catch in a batch (ms).
+// Simulates a human noticing a spawn and starting to type.
+const MIN_CATCH_DELAY_MS = 1500;
+const MAX_CATCH_DELAY_MS = 3500;
 
 // Delay between consecutive queued catches (ms).
-// If multiple spawns pile up, space them out naturally.
-const MIN_INTER_CATCH_DELAY_MS = 3000;
-const MAX_INTER_CATCH_DELAY_MS = 6000;
+// All 6 channels spawn simultaneously every 20s, so all 6 must be caught
+// within that window. 6 catches × ~2.5s each = ~15s total — safely under 20s.
+// This simulates a person quickly switching channels and re-typing the command.
+const MIN_INTER_CATCH_DELAY_MS = 800;
+const MAX_INTER_CATCH_DELAY_MS = 1800;
 
 // How long to lock a channel after catching (ms) — prevents double-catching
 // the same spawn. Spawns are every 20s so 8s is enough to block duplicates
