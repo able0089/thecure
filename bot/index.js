@@ -72,18 +72,28 @@ async function processQueue() {
   if (isProcessing || catchQueue.length === 0) return;
   isProcessing = true;
 
+  let firstInBatch = true;
+
   while (catchQueue.length > 0) {
     const { channel, pokemonName, channelId } = catchQueue.shift();
 
     log("CATCH", `Processing: ${pokemonName} in #${channel.name} (${catchQueue.length} remaining in queue)`);
 
-    // Simulate human thinking + typing before catching
-    await randomDelay(MIN_CATCH_DELAY_MS, MAX_CATCH_DELAY_MS);
+    // First catch in a batch gets full human reaction delay.
+    // Subsequent queued catches skip the long initial wait — the inter-catch
+    // delay already covered that gap. This ensures all 6 channels get caught
+    // within the 20s spawn window even if spawns cluster together.
+    if (firstInBatch) {
+      await randomDelay(MIN_CATCH_DELAY_MS, MAX_CATCH_DELAY_MS);
+      firstInBatch = false;
+    } else {
+      // Small extra jitter for non-first catches (looks like switching tabs)
+      await randomDelay(400, 1200);
+    }
 
     try {
       await channel.sendTyping();
-      // Small extra jitter after typing starts
-      await sleep(randomInt(400, 1200));
+      await sleep(randomInt(400, 900));
       const catchName = resolveCatchName(pokemonName);
       await channel.send(`<@${POKETWO_BOT_ID}> c ${catchName}`);
       log("CAUGHT", `${pokemonName} → ${catchName} in #${channel.name}`);
