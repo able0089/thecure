@@ -100,18 +100,17 @@ async function processQueue() {
       await sleep(randomInt(400, 900));
 
       const catchName = resolveCatchName(pokemonName);
-      await channel.send(`<@${POKETWO_BOT_ID}> c ${catchName}`);
+      const sentMsg = await channel.send(`<@${POKETWO_BOT_ID}> c ${catchName}`);
       log("CAUGHT", `${pokemonName} → ${catchName} in #${channel.name}`);
 
-      // Store original name for wrong-name fallback.
-      // If alias === original name (no alias found), no point storing.
+      // Store sent message + original name for wrong-name fallback.
+      // Only needed when we used an alias (if no alias, English name was already sent).
       if (catchName.toLowerCase() !== pokemonName.toLowerCase()) {
-        // Clear any previous entry for this channel
         const prev = recentCatches.get(channelId);
         if (prev) clearTimeout(prev.timer);
 
         const timer = setTimeout(() => recentCatches.delete(channelId), WRONG_NAME_WINDOW_MS);
-        recentCatches.set(channelId, { originalName: pokemonName, timer });
+        recentCatches.set(channelId, { originalName: pokemonName, sentMsg, timer });
         log("TRACK", `Tracking wrong-name fallback for ${pokemonName} → ${catchName} (${WRONG_NAME_WINDOW_MS / 1000}s window)`);
       }
     } catch (err) {
@@ -247,15 +246,13 @@ client.on("messageCreate", async (message) => {
         const channelId = message.channel.id;
         const tracked   = recentCatches.get(channelId);
         if (tracked) {
-          const { originalName, timer } = tracked;
+          const { originalName, sentMsg, timer } = tracked;
           clearTimeout(timer);
           recentCatches.delete(channelId);
-          log("WRONG", `Wrong name in #${message.channel.name} — retrying with original: ${originalName}`);
+          log("WRONG", `Wrong name in #${message.channel.name} — editing to original: ${originalName}`);
           await sleep(randomInt(600, 1500));
-          await message.channel.sendTyping();
-          await sleep(randomInt(300, 700));
-          await message.channel.send(`<@${POKETWO_BOT_ID}> c ${originalName}`);
-          log("RETRY", `Sent retry catch: ${originalName} in #${message.channel.name}`);
+          await sentMsg.edit(`<@${POKETWO_BOT_ID}> c ${originalName}`);
+          log("RETRY", `Edited catch message to: ${originalName} in #${message.channel.name}`);
         } else {
           log("WRONG", `Wrong name detected in #${message.channel.name} but no tracked catch to retry`);
         }
