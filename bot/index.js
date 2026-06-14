@@ -10,6 +10,7 @@
  */
 
 const { Client } = require("discord.js-selfbot-v13");
+const { resolveCatchName } = require("./aliases");
 
 // ─── Config ──────────────────────────────────────────────────────────────────
 
@@ -75,8 +76,9 @@ async function processQueue() {
       await channel.sendTyping();
       // Small extra jitter after typing starts
       await sleep(randomInt(400, 1200));
-      await channel.send(`<@${POKETWO_BOT_ID}> c ${pokemonName}`);
-      log("CAUGHT", `${pokemonName} in #${channel.name}`);
+      const catchName = resolveCatchName(pokemonName);
+      await channel.send(`<@${POKETWO_BOT_ID}> c ${catchName}`);
+      log("CAUGHT", `${pokemonName} → ${catchName} in #${channel.name}`);
     } catch (err) {
       log("ERROR", `Failed to catch ${pokemonName}: ${err.message}`);
     }
